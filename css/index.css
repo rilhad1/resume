@@ -1,9 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 html,
@@ -16,6 +13,10 @@ body {
 body {
     margin-top: 70px;
 
+}
+
+h2 {
+    text-align: center;
 }
 
 /*Navigator*/
@@ -33,19 +34,17 @@ nav {
 nav li {
     float: left;
     list-style: none;
-    font-family: arial;
     padding: 20px 25px 20px 25px;
-        right: 0px;
-
-
+    right: 0px;
 }
 
 nav li a {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
     padding: 0 30px;
-    margin: 10 0 0 0;
+    margin: 10px 0 0 0;
     color: #cccccc;
     text-shadow: 0 1px 0 gray;
 }
@@ -67,6 +66,7 @@ nav li a:hover {
     position: absolute;
     width: 100%;
     height: auto;
+    font-family: 'Titillium Web', sans-serif;
     text-align: center;
     right: 0;
     font-size: 100px;
@@ -78,7 +78,7 @@ nav li a:hover {
     width: 100%;
     height: auto;
     text-align: center;
-
+    font-family: 'Lato', sans-serif;
     font-size: 60px;
     top: 700px;
 }
@@ -99,30 +99,25 @@ nav li a:hover {
 
 /*About*/
 
-
-h2 {
+#about h2 {
+    color: #2c3e50;
     text-align: center;
-    font-family: arial;
-    font-size: 45px;
-    margin: 30px 30px 30px 30px;
+    font-family: 'Lato', sans-serif;
 }
 
-#about-left-column div {
-    width: 250px;
-    margin: 10px 10px 10px 10px;
+#about h3 {
+    font-family: 'Titillium Web', sans-serif;
 }
 
-
-
-
+#about h4 {
+    font-family: 'Roboto Slab', serif;
+}
 
 #face {
     border-radius: 300px;
     width: 252px;
     height: 252px;
 }
-
-
 
 /*LET'S TALK ABOUT YOUR NEW PROJECT*/
 
@@ -131,13 +126,19 @@ h2 {
     height: 325px;
     width: 100%;
 }
+
 #get-in-touch h2 {
     padding-top: 100px;
-    font-family: inherit;
+    font-family: 'Titillium Web', sans-serif;
     color: #cccccc;
 }
+
+span {
+    font-family: 'Lato', sans-serif;
+}
+
 button {
-    border-color:#cccccc;
+    border-color: #cccccc;
     padding: 18px 27px;
     font-size: 19px;
     color: #cccccc;
@@ -145,32 +146,165 @@ button {
     background: black;
     border: 3px solid
 }
+
 button:hover {
-    border-color:#cccccc;
+    border-color: black;
     padding: 18px 27px;
     font-size: 19px;
     color: black;
     border-radius: 0px;
     background: #cccccc;
     border: 3px solid;
-    
+}
+
+button span {
+    font-family: 'Lato', sans-serif;
 }
 
 /*Skills*/
-.skills{
-    display:inline-block;
-    width: 100px;
-    height:100px;
+
+#skills h2{
+        font-family: 'Lato', sans-serif;
 }
-.skills img{
+
+.skills {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.skills img {
 
     width: 100px;
     height: 100px;
-    
 }
 
-.skills p{
-    font-family: arial;
+.skills p {
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     text-align: center;
+}
+
+/*Process*/
+
+#process {
+    background-color: black;
+}
+
+#process h2 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #cccccc;
+}
+
+#process img {
+    width: 100%;
+    height: auto;
+}
+
+/*Education*/
+
+#education h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+#education h3,
+#education h4 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#education h5 {
+    font-family: 'Roboto Slab', serif;
+
+}
+
+/*Certificate*/
+
+#certificate {
+    background-color: black;
+}
+
+#certificate h2,
+#certificate h3,
+#certificate h4,
+#certificate h5 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #cccccc;
+    text-align: center;
+}
+
+#certificate img {
+    width: 100%;
+    height: auto;
+}
+
+.certificate {
+    display: inline-block;
+    width: 30%;
+    height: auto;
+}
+
+/*Portfolio*/
+
+#portfolio h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+#portfolio div {
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    margin: 10px;
+}
+
+#portfolio div img {
+    height: auto;
+    width: 100%;
+}
+
+/*Contact*/
+
+#contact {
+    background-color: black;
+
+}
+
+#contact h2 {
+    color: #cccccc;
+    font-family: 'Lato', sans-serif;
+}
+
+input,
+textarea {
+    outline: 0;
+    border-color: black;
+    padding: 18px 27px;
+    font-size: 19px;
+    color: #cccccc;
+    border-radius: 0px;
+    background: black;
+}
+
+[type="submit"]:hover {
+    border-color: black;
+    padding: 18px 27px;
+    font-size: 19px;
+    color: black;
+    border-radius: 0px;
+    background: white;
+    border: 3px solid;
+}
+
+[type="submit"] {
+    border-color: #cccccc;
+    padding: 18px 27px;
+    font-size: 19px;
+    color: #cccccc;
+    border-radius: 0px;
+    background: black;
+    border: 3px solid;
+}
+
+#map img{
+    width: 100%;
+    height: 400px;
 }
