@@ -26,3 +26,15 @@ body {
     z-index: -10;
     margin-top: 71px;
 }
+
+
+/*process*/
+
+#process {
+    background-color:  black;
+}
+
+#process img {
+    width: 100%;
+    height: auto;
+}
