@@ -9,7 +9,7 @@
     flex-wrap: wrap;
 }
 #skills>h2{
-    padding: 70px;
+    padding: 70px 0 40px 0;
 }
 
 div.skills > img {

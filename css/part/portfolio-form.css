@@ -1,0 +1,53 @@
+#portfolio {
+    background-color: #f2f2f2;
+    padding: 70px 0 40px 0;
+}
+
+#portfolio>h2 {
+    padding: 0 0 40px 0;
+}
+
+#portfolio>div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#contact {
+    background-color: black;
+    padding: 70px 0 40px 0;
+}
+
+
+input,
+textarea {
+    outline: 0;
+    border: none;
+    padding: 18px 27px;
+    font-size: 19px;
+    color: white;
+    border-radius: 0px;
+    background: black;
+}
+
+[type="submit"]:hover {
+    border-color: #f2f2f2;
+    padding: 18px 27px;
+    font-size: 19px;
+    color: black;
+    border-radius: 0px;
+    background: #f2f2f2;
+    border: 3px solid
+}
+
+[type="submit"] {
+    display: flex;
+    margin: 0 auto;
+    border-color: #f2f2f2;
+    padding: 18px 27px;
+    font-size: 19px;
+    color: #f2f2f2;
+    border-radius: 0px;
+    background: black;
+    border: 3px solid;
+}

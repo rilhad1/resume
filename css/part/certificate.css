@@ -1,0 +1,30 @@
+#certificate {
+    background-color: black;
+    padding: 70px 0 40px;
+}
+
+#certificate h2 {
+    margin: 0 0 40px 0;
+}
+
+#certificate>div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#certificate p {
+    text-align: center;
+    color: #f2f2f2;
+    font-style: bold;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#certificate img {
+    width: 100%;
+    height: auto;
+}
+
+.certificate {
+    width: 30%;
+    height: auto;
+}

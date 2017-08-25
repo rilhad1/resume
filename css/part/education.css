@@ -1,0 +1,10 @@
+#education {
+    padding: 70px 0 40px 0;
+    background-color: #f2f2f2;
+}
+
+#education > div > div {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
