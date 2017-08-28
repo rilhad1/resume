@@ -31,7 +31,7 @@ textarea {
 }
 
 [type="submit"]:hover {
-    border-color: #f2f2f2;
+    border-color: black;
     padding: 18px 27px;
     font-size: 19px;
     color: black;
