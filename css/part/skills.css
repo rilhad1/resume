@@ -4,12 +4,16 @@
 
 }
 #skills>div {
+    padding: 20px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 #skills>h2{
     padding: 70px 0 40px 0;
+}
+div.skills{
+    padding: 20px;
 }
 
 div.skills > img {
