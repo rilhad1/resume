@@ -7,18 +7,18 @@
     padding: 0 0 40px 0;
 }
 
-#portfolio>div>img{
+#portfolio>div>img {
     width: auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-@media screen and (max-width: 500px) {
-    #portfolio > div >img {
-        width: 320px;
-       height: auto;
-    }
 
+@media screen and (max-width: 500px) {
+    #portfolio>div>img {
+        width: 320px;
+        height: auto;
+    }
 }
 
 #contact {

@@ -1,22 +1,24 @@
-#skills{
+#skills {
     background-color: #f2f2f2;
-        padding-bottom: 80px;
-
+    padding-bottom: 80px;
 }
+
 #skills>div {
     padding: 20px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-#skills>h2{
+
+#skills>h2 {
     padding: 70px 0 40px 0;
 }
-div.skills{
+
+div.skills {
     padding: 20px;
 }
 
-div.skills > img {
+div.skills>img {
     width: 128px;
     height: 128px;
 }
