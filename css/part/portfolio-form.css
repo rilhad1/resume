@@ -8,29 +8,40 @@
 }
 
 #portfolio>div>img {
-    width: auto;
+    width: 300px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 500px) {
-    #portfolio>div>img {
-        width: 320px;
-        height: auto;
-    }
-}
+
 
 #contact {
     background-color: black;
     padding: 70px 0 40px 0;
 }
 
+#form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-input,
-textarea {
+input::placeholder,
+textarea::placeholder {
+    color: #f2f2f2;
+    text-align: center;
+}
+
+#form-name,
+#form-email,
+#form-message {
     outline: 0;
-    border: none;
+    border: 2px solid #f2f2f2;
+    width: 35%;
+    min-width: 240px;
+    margin: 10px;
     padding: 18px 27px;
     font-size: 19px;
     color: white;

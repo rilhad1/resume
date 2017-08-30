@@ -28,13 +28,17 @@
             <h1>RESUME</h1>
             <h2>BOICHIK VOLODYMYR</h2>
             <div id="social-icons">
-                <a href="#"><img class="social-icons" src="img/icon/facebook.png" alt="facebook"></a>
-                <a href="#"><img class="social-icons" src="img/icon/skype.png" alt="skype"></a>
-                <a href="#"><img class="social-icons" src="img/icon/twitter.png" alt="twitter"></a>
-                <a href="#"><img class="social-icons" src="img/icon/mail.png" alt="mail"></a>
-                <a href="#"><img class="social-icons" src="img/icon/linkedin.png" alt="linkedin"></a>
-                <a href="#"><img class="social-icons" src="img/icon/youtube.png" alt="youtube"></a>
-                <a href="#"><img class="social-icons" src="img/icon/google.png" alt="google"></a>
+                <div>
+                    <a href="#"><img class="social-icons" src="img/icon/facebook.png" alt="facebook"></a>
+                    <a href="#"><img class="social-icons" src="img/icon/skype.png" alt="skype"></a>
+                    <a href="#"><img class="social-icons" src="img/icon/twitter.png" alt="twitter"></a>
+                    <a href="#"><img class="social-icons" src="img/icon/mail.png" alt="mail"></a>
+                </div>
+                <div>
+                    <a href="#"><img class="social-icons" src="img/icon/linkedin.png" alt="linkedin"></a>
+                    <a href="#"><img class="social-icons" src="img/icon/youtube.png" alt="youtube"></a>
+                    <a href="#"><img class="social-icons" src="img/icon/google.png" alt="google"></a>
+                </div>
             </div>
         </section>
 
@@ -208,11 +212,11 @@
         <div id="contact">
             <h2 class="titilium-white-h2">CONTACT US</h2>
             <h3 class="titilium-white-h3">WE ARE READY TO WORK WITH YOU</h3>
-            <form method="POST" action="https://formspree.io/rilhad1@gmail.com">
-                <input type="text" placeholder="Name" required><br>
-                <input type="email" placeholder="E-mail" required><br>
-                <textarea placeholder="Message"></textarea><br>
-                <input type="submit" value="Send">
+            <form id="form">
+                <input id="form-name" type="text" placeholder="Name" required><br>
+                <input id="form-email" type="email" placeholder="E-mail" required><br>
+                <textarea id="form-message" placeholder="Message"></textarea><br>
+                <input id="form-submit" type="submit" value="Send">
             </form>
         </div>
         <div id="map">
@@ -223,6 +227,7 @@
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/smooth.js"></script>
+    <script type="text/javascript" src="js/form-ajax.js"></script>
 
 </body>
 

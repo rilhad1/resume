@@ -6,13 +6,15 @@
 #education>div>div {
     display: flex;
     justify-content: space-between;
-    margin: 50px 100px;
+    flex-wrap:wrap;
+    margin: 3% 7%;
+}
+#education>div>div>div{
+    width: 60%;
+}
+#education>div>div>p{
+    width: 40%;
+    min-width: 240px;
+
 }
 
-@media screen and (max-width: 500px) {
-    #education>div>div {
-        margin: 50px auto;
-
-    }
-
-}
