@@ -6,33 +6,54 @@ header {
     width: 100%;
 }
 
-nav {
-
-    height: 71px;
-    margin: 0 auto;
+.navbar-brand>img {
+    width: 150px;
+    padding-left: 20px;
 }
 
-nav ul {
-        background-color: black;
+button.navbar-toggler.collapsed,
+button.navbar-toggler {
+    margin: 0 auto;
+    margin-right: 5%;
+}
 
+.bg-dark {
+    background-color: black!important;
+}
+
+.navbar {
+    padding: 0;
+}
+
+nav {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 1100px;
+    height: 71px;
+    margin: 0 auto;
+
+}
+
+nav div ul {
+    background-color: black;
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     list-style: none;
-    padding: 20px 0;
 }
 
-nav ul li a {
+nav div ul li a {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     font-family: 'Titillium Web', sans-serif;
-    color: #cccccc;
+    color: #cccccc!important;
     text-shadow: 0 1px 0 gray;
+    text-align: center;
 }
 
-nav ul li a:hover {
-    color: white;
+nav div ul li a:hover {
+    color: white!important;
 }

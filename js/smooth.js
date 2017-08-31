@@ -1,5 +1,5 @@
 $(function() {
-    $('header>nav>ul>li>a').on('click', function(event) {
+    $('header>nav>div>ul>li>a').on('click', function(event) {
         var target = $(this.getAttribute('href'));
         if (target.length) {
             event.preventDefault();

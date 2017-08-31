@@ -3,18 +3,35 @@
     background-color: #f2f2f2;
 }
 
+#education>h2 {
+    margin-bottom: 50px;
+}
+
 #education>div>div {
     display: flex;
-    justify-content: space-between;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     margin: 3% 7%;
 }
-#education>div>div>div{
+
+#education>div>div>div {
     width: 60%;
 }
-#education>div>div>p{
+
+#education>div>div>p {
     width: 40%;
     min-width: 240px;
-
+    text-align: right;
 }
 
+@media screen and (max-width: 697px) {
+   #education>div>div>div {
+    width: 100%;
+}
+
+#education>div>div>p {
+    min-width: 240px;
+    text-align: left;
+}
+
+
+}

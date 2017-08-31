@@ -7,66 +7,49 @@
     padding: 0 0 40px 0;
 }
 
-#portfolio>div>img {
-    width: 300px;
+#portfolio>div {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
 }
 
+#portfolio>div>img {
+    max-height: 300px;
+    margin: 20px 0;
 
 
-#contact {
-    background-color: black;
-    padding: 70px 0 40px 0;
 }
 
-#form {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.style_prevu_kit {
+    border: 0;
+    position: relative;
+    transition: all 200ms ease-in;
+    transform: scale(1);
+
 }
 
-input::placeholder,
-textarea::placeholder {
-    color: #f2f2f2;
-    text-align: center;
+.style_prevu_kit:hover {
+    z-index: 2;
+    transition: all 200ms ease-in;
+    transform: scale(1.3);
 }
 
-#form-name,
-#form-email,
-#form-message {
-    outline: 0;
-    border: 2px solid #f2f2f2;
-    width: 35%;
-    min-width: 240px;
-    margin: 10px;
-    padding: 18px 27px;
-    font-size: 19px;
-    color: white;
-    border-radius: 0px;
-    background: black;
+.shadow:hover {
+    box-shadow: 0px 0px 50px #000000;
 }
 
-[type="submit"]:hover {
-    border-color: black;
-    padding: 18px 27px;
-    font-size: 19px;
-    color: black;
-    border-radius: 0px;
-    background: #f2f2f2;
-    border: 3px solid
-}
 
-[type="submit"] {
-    display: flex;
-    margin: 0 auto;
-    border-color: #f2f2f2;
-    padding: 18px 27px;
-    font-size: 19px;
-    color: #f2f2f2;
-    border-radius: 0px;
-    background: black;
-    border: 3px solid;
+@media screen and (max-width: 550px) {
+  
+    #portfolio>div>img {
+        max-width: 280px;
+        margin: 20px 0;
+    }
+}
+@media screen and (max-width: 370px) {
+    .style_prevu_kit:hover {
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
 }
